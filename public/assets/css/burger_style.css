@@ -1,0 +1,55 @@
+*{
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.container{
+  width: 100%;
+}
+
+.burgerBox{
+  display: flex;
+  width: 70%;
+  margin: auto;
+}
+
+.title {
+  width: 70%;
+  margin: auto;
+  background-color: lightyellow;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dispFalse{
+  width: 50%;
+  text-align: center;
+  border-right: solid black 2px;
+}
+
+.dispTrue{
+  width: 50%;
+  text-align: center;
+  border-left: solid black 2px;
+
+}
+
+.createArea{
+  width: 70%;
+  background-color: lightgoldenrodyellow;
+  margin: auto;
+  margin-top: 40px;
+  text-align: center;
+}
+
+#ca, .devour{
+  margin-bottom: 5px;
+}
